@@ -1,3 +1,21 @@
+// LASTINDEXOF :
+//
+
+
+// SYNTAX :
+
+
+// Return Value :
+
+
+
+
+
+
+
+
+
+// # EXAMPLE 1 :
 const names=["Jay","John","Ram","Sesu",'John',"Jay"]
 
 console.log(names.lastIndexOf("John"))
