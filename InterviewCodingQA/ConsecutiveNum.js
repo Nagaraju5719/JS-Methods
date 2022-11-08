@@ -6,6 +6,7 @@ let a=[1,2,3,4,5,6,7,8,11]
 
 function findMissingNum(a){
   let newArr1 = [];
+  a.sort((a,b)=>a-b)
 for (let x=1; x<=a[a.length-1]; x++) {
   if (!a.includes(x)) {
     newArr1.push(x);
